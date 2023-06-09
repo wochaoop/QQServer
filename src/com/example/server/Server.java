@@ -10,7 +10,7 @@ public class Server {
 
     public static void main(String[] args) {
         try {
-            int port = 6666;
+            int port = 43819;
 
             ServerSocket serverSocket = new ServerSocket(port);//绑定服务器端口
 
