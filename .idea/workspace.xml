@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1b3390f-a5cf-4da3-8526-6c9d487c8a45" name="变更" comment="111">
-      <change beforePath="$PROJECT_DIR$/src/com/example/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/server/HandlerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/server/HandlerClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686269979275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="111">
+      <created>1686270236133</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686270236133</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
