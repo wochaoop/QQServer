@@ -1,0 +1,18 @@
+@startuml
+
+class Server {
+   + main()
+}
+
+class HandlerClient {
+   - ONLINE_CLIENT_MAP
+   - client
+   + run()
+   ...
+   + register()
+}
+
+Server "1" *-- "*" HandlerClient : 创建
+
+HandlerClient "1" o-- "1" Socket: 使用
+@enduml
