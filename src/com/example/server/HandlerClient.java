@@ -27,19 +27,19 @@ public class HandlerClient implements Runnable{
 
             while (true) {
                 String data = scanner.nextLine();
-                if (data.startsWith("注册:")) {
+                if (data.startsWith("注册：")) {
                     String userName = data.split(":")[1];
                     register(userName);
                     continue;
                 }
 
-                if (data.startsWith("群聊:")) {
+                if (data.startsWith("群聊：")) {
                     String message = data.split(":")[1];
                     groupChat(message);
                     continue;
                 }
 
-                if (data.startsWith("私聊:")) {
+                if (data.startsWith("私聊：")) {
                     String [] segments = data.split(":");
                     String targetUserName = segments[1].split("\\-")[0];
                     String message = segments[1].split("\\-")[1];
@@ -63,7 +63,7 @@ public class HandlerClient implements Runnable{
                 ONLINE_CLIENT_MAP.remove(entry.getKey());
                 break;
             }
-            System.out.println(getCurrentUserName() + "推出聊天室");
+            System.out.println(getCurrentUserName() + "退出聊天室");
         }
         printOnlineClient();
     }
